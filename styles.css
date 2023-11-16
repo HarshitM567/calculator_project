@@ -1,0 +1,85 @@
+body {
+    background-image: url("assets/home-bg.jpg");
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.icon{
+    scale: 30%;
+}
+
+.title{
+    margin-bottom: 50px;
+    font-family: "Century Gothic", serif;
+}
+
+input{
+    background-color: deepskyblue;
+    border-radius: 10px;
+}
+
+.plus_button{
+    background-color: yellow;
+}
+
+.minus_button{
+    background-color: #d9000c;
+}
+
+.multi_button{
+    background-color: orange;
+}
+
+.div_button{
+    background-color: greenyellow;
+}
+
+.result_button{
+    background-color: cyan;
+}
+
+.clear_display{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.calculator {
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 25px;
+}
+
+.display {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    background-color: #F9DDCA;
+    cursor: pointer;
+}
+
+.zero_button{
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+
